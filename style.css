@@ -13,7 +13,7 @@ body {
 
 header.sticky {
     height: 100px;
-    padding-bottom: 80px;
+   
 }
 
 header.sticky .logo {
@@ -25,6 +25,7 @@ header.sticky .logo {
 
 header.sticky .banner {
     opacity: 0.5;
+    padding-bottom: 30px;
 
 }
 
@@ -132,9 +133,7 @@ main {
     color: azure;
 }
 
-h1 {
-    padding-bottom: 20px;
-}
+
 main p {
     display: grid;
     align-items: center;
