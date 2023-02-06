@@ -150,13 +150,14 @@ main p {
 
 .profile {
    height: 300px;
-   border: 1px solid black;
+   
    border-radius: 5px;
 }
 .grid {
-
+    border: 1px solid white;
     display: grid;
     gap: 20px;
     grid-template-columns: 20% 50%;
     justify-content: center;
+    padding: 20px;
 }
