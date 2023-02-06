@@ -1,0 +1,162 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 700px;
+    background-color: black;
+}
+
+header.sticky {
+    height: 100px;
+    padding-bottom: 50px;
+}
+
+header.sticky .logo {
+    position: absolute;
+    font-size: 3rem;
+    left: 100px;
+    transform: translate(-10%, -50%);
+}
+
+header.sticky .banner {
+    opacity: 0.5;
+
+}
+
+header.sticky nav {
+    padding-right: 150px;
+    transition: 1;
+}
+
+header.sticky nav ul {
+    opacity: 1;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+header .banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+header .logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 350;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 4rem;
+    transform: translate(-50%, -50%);
+    transition: 1s;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    transition: 0.25s;
+    
+    opacity: 0;
+    
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding:0px 30px;
+    opacity: 1;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.one {
+    border-right: 1px solid white;
+}
+
+
+main {
+    margin-top: 150px;
+    padding: 20px 90px 30px 90px;
+    background-color: black;
+
+}
+
+
+
+.name {
+
+    display: grid;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    color: azure;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+main p {
+    display: grid;
+    align-items: center;
+    padding: 15px;
+    max-width: 500px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 5px;
+    text-align: center;
+    color: azure;
+    padding-top: 50px;
+    
+}
+
+.profile {
+   height: 300px;
+   border: 1px solid black;
+   border-radius: 5px;
+}
+.grid {
+
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 20% 50%;
+    justify-content: center;
+}
