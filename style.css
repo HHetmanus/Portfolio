@@ -159,3 +159,7 @@ main p {
     justify-content: center;
     padding: 20px;
 }
+
+span {
+    font-size: 1.3rem;   
+}
