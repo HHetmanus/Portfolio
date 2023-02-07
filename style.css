@@ -123,6 +123,10 @@ nav ul li a:hover {
     top: 130px;
     left:0;
 }
+
+.contact:hover {
+    pointer: cursor;
+}
 main {
     margin-top: 150px;
     padding: 20px 90px 30px 90px;
