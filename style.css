@@ -115,6 +115,8 @@ nav ul li a:hover {
 }
 
 .contact {
+    
+    border: 1px solid white;
     background-color: white;
 }
 main {
