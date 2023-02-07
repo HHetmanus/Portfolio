@@ -118,6 +118,10 @@ nav ul li a:hover {
     
     border: 1px solid white;
     background-color: white;
+    z-index: 5;
+    position: fixed;
+    top: 90px;
+    left:0;
 }
 main {
     margin-top: 150px;
