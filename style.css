@@ -124,13 +124,13 @@ main {
 
 
 
-.name {
+/*.name {
 
     display: grid;
     justify-content: flex-start;
     font-family: 'Nunito Sans', sans-serif;
     color: azure;
-}
+}*/
 
 
 main p {
@@ -163,3 +163,5 @@ span {
     font-size: 1.3rem;   
     font-weight: 500;
 }
+
+.footer
