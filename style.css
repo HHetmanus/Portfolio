@@ -165,14 +165,15 @@ main p {
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    
     width: 100%;
-    border: 1px solid white;
     background-color: white;
     color: #71797E;
     font-style: italic;
     text-align: center;
-    margin: auto 0;
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;        
+    height: 40px;
     
 }
