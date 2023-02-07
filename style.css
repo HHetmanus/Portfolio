@@ -114,7 +114,9 @@ nav ul li a:hover {
     border-right: 1px solid white;
 }
 
-
+.contact {
+    background-color: white;
+}
 main {
     margin-top: 150px;
     padding: 20px 90px 30px 90px;
