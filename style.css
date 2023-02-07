@@ -167,6 +167,7 @@ main p {
 .footer {
     position: absolute;
     bottom: 0;
+    width: 100%;
     border: 1px solid white;
     background-color: white;
     color: #71797E;
