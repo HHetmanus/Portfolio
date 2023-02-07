@@ -168,8 +168,9 @@ main p {
     
     width: 100%;
     background-color: white;
-    color: #71797E;
+    color: Black;
     font-style: italic;
+    font-size: small;
     text-align: center;
     position: fixed;
     padding: 10px 10px 0px 10px;
