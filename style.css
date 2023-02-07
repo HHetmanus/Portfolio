@@ -125,7 +125,7 @@ nav ul li a:hover {
 }
 
 .contact:hover {
-    pointer: cursor;
+    cursor:pointer;
 }
 main {
     margin-top: 150px;
