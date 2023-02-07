@@ -127,6 +127,7 @@ nav ul li a:hover {
 
 .contact:hover {
     cursor:pointer;
+    background-color: white;
 }
 main {
     margin-top: 150px;
