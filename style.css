@@ -164,4 +164,7 @@ span {
     font-weight: 500;
 }
 
-.footer
+.footer {
+    border: 1px solid white;
+    
+}
