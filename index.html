@@ -66,12 +66,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  margin: 0;
-  position: absolute;
-  top: 70%;
-  left: 70%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
