@@ -1,71 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/53152d64db.js" crossorigin="anonymous"></script>
- <style>   
- 
-</style>   
-    
-</head>
-<body>
-    <header>
-        <img src="images/banner.jpg" class="banner" alt="Porfolio Banner">
-        <a href="#" class="logo">Portfolio.</a>
-        <nav>
-            <ul>
-                <li><a href="https://johnpaulproject.netlify.app/" class="one" target="_blank">Project 1</a></li>
-                <li><a href="#" class="one">Project 2</a></li>
-                <li><a href="#" class="one">Project 3</a></li>
-                <li><a href="#">Project 4</a></li>
-            </ul>
-        </nav>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
 
-    </header>
-    <hr>
-    <main>
-        
-        
-        <div class="contact">
-            <i class="fa-solid fa-square-envelope fa-2xl"></i>
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
-            <i class="fa-brands fa-github fa-2xl"></i>
-        </div>
-        
-        <div class="grid">
-            <div class="child">
-                <img class="profile" src="images/profile.jpg" alt="profile picture" height="300">
-            </div>
-            <div class="child">
-                <p class="name">Hi, I'm <span>Hubert</span>
-                    <br><br>
-                Welcome on my very own- personal portfolio website. I hope you will like what you see here.
-                    Click for the project number in the 'header' section for more details.
-                    Please feel free to contact me regarding my work. 
-                <br><br>Your feedback will be most welcome.</p>
-            </div>
-            
-         </div>
-        
-        
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-    </main>
-    
-    <footer class="footer">
-        <p><span>&copy;</span>Hubert Hetman 2023, UK</p>
-    </footer>
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div >
+      <span class="close">&times;</span>
      
-    
+    </div>
+     <form class="form" action="https://formsubmit.co/a7e63825664dc9ddac4daf0af7762f02 " method="POST">
+              <div class="container">
+              
+                  <p>Have a Question? <br>
+                  Contact me! </p>
+                
 
+              </div>
 
-    <script src="JavaScript/scroll.js"></script>  
-    
-</body>
-</html>
+              <div class="container" >
+                	<input type="text" placeholder="Enter your name" name="name" 								required>
+              </div>      
+              <div class="container" >      
+                	<input type="text" placeholder="Enter your email" name="mail" 							required>
+
+              </div>
+
+              <div id="container">
+                <textarea name="Message" placeholder="Enter Your message" 							rows="6" cols="20" required></textarea>
+             </div>  
+              <div id="container">   
+                <button class="button" type="submit" value="Submit">SEND MESSAGE</button>
+              </div>
+              
+            </form>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
