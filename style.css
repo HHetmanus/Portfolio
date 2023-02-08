@@ -118,7 +118,8 @@ nav ul li a:hover {
 .contact {
     
     border-radius: 4px;
-    background-color: #C5C5C5;
+    background-color: white;
+    opacity: 0.9;
     padding: 6px 0px;
     position: fixed;
     top: 160px;
@@ -128,6 +129,7 @@ nav ul li a:hover {
 .contact:hover {
     cursor:pointer;
     background-color: white;
+    opacity: 1;
 }
 main {
     margin-top: 150px;
