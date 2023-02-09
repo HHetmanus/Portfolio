@@ -328,7 +328,9 @@ main p {
 
 @media only screen and  (max-width: 730px) {
      
-    
+    nav ul {
+        text-align: center;
+    }
     nav ul li a {
         font-size: 0.8rem;
         font-weight: 400;
@@ -344,6 +346,7 @@ main p {
      }
     body {
     min-height: 700px;
+    min-width: 550px;    
     
     }
 }
