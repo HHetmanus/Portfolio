@@ -347,6 +347,11 @@ main p {
         
          
      }
+    
+    main p {
+        min-width: 300px;
+    
+    }
     body {
     
     max-width: 600px;    
