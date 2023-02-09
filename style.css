@@ -341,10 +341,16 @@ main p {
     
     }
     
+    nav ul li {
+        display: flex;
+        border: 1px solid white;
+    
+    }
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
         padding: 0px 5px;
+        
     }
     
     
