@@ -334,14 +334,10 @@ main p {
     border-style: none;
     
     }
-    nav ul {
+    nav  {
         
-        /*display: inline-block;
-        display: flex;
-        justify-content: space-around;
-        padding-left: 80px;
-        */
-        text-align: center;
+       display: flex;
+       justify-content: center;
         
     }
     nav ul li a {
