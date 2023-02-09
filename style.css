@@ -326,5 +326,13 @@ main p {
      }
 }
 
+@media only screen and  (max-width: 730px) {
+     
+     
+     .grid {
+        display: block;
+         
+     }
+}
 
 
