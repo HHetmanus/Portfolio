@@ -339,12 +339,6 @@ main p {
     
     }
     
-    nav {
-        margin-left: 70px !important;
-        text-align: right;
-        display:flex;
-        flex-wrap: wrap;
-    }
     
     
     nav ul li a {
