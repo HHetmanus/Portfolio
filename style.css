@@ -386,22 +386,18 @@ nav ul li a {
     font-size: 0.9rem;
     font-weight: 400;
 }
-    
-  
-    
-    
      
      .grid {
         display: block;
          width: 95%;
-         margin: auto;
-         
-        
-         
+         margin: auto;   
      }
     
     
+    .profile {
+        margin-top: 300px;
     
+    }
     main p {
         min-width: 200px;
     
