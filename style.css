@@ -147,11 +147,7 @@ main p {
     padding-top: 50px;  
 }
 
-.child span {
-    color: #E9FFFF;
-    font-weight: 500;
 
-}
 
 .profile {
    height: 300px; 
@@ -173,7 +169,7 @@ main p {
 
 .child span {
     font-size: 1rem;   
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .footer {
