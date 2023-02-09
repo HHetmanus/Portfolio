@@ -342,7 +342,6 @@ main p {
     nav {
         
         display: flex;
-        
         border: 1px solid white;
     
     }
@@ -350,19 +349,11 @@ main p {
     nav ul {
         display: flex;
         flex-wrap: wrap;
-        padding-right: 0px;
-        margin-right: 0px;
         gap: 10px;
     
     }
     
-    nav ul li {
-        display: flex;
-        justify-content: space-evenly;
-        border: 1px solid white;
-       
     
-    }
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
