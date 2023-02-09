@@ -341,25 +341,18 @@ main p {
     
     nav {
         margin-left: 70px !important;
-        display: in-line;
-        text-align: center;
+        text-align: right;
     }
     
     
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
-        text-align: center;
-        min-width: 50px;
+        
         
     }
     
-    nav ul li {
-        
-        text-align: center;
-        min-width: 50px;
-        
-    }
+  
     
     
      
