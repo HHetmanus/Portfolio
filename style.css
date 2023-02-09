@@ -339,7 +339,9 @@ main p {
     
     }
     
-    
+    nav {
+        margin-left: 30px;
+    }
     
     
     nav ul li a {
