@@ -317,10 +317,21 @@ main p {
         
     }
      
-     nav ul li{
-        display: flex;
-       justify-content: space-around;
+     nav {
+        margin:0;
+        padding:0;
+        text-align:center;
      
+     }
+     
+     
+     nav li {
+     
+        display:inline;
+     }
+     
+     nav a {
+        display:inline-block;
      }
      
      header.sticky .logo {
