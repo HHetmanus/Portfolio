@@ -9,12 +9,10 @@
 body {
     min-height: 750px;
     background-color: black;
-  /*  background-color: white;*/
 }
 
 header.sticky {
     height: 100px;
-   
 }
 
 header.sticky .logo {
@@ -27,7 +25,6 @@ header.sticky .logo {
 header.sticky .banner {
     opacity: 0.5;
     padding-bottom: 20px;
-
 }
 
 header.sticky nav {
@@ -82,16 +79,13 @@ nav {
     position: relative;
     display: flex;
     z-index: 1;
-    
 }
 
 nav ul {
     position: relative;
     display: flex;
     transition: 0.25s;
-    
     opacity: 0;
-    
 }
 
 nav ul li {
@@ -127,24 +121,19 @@ nav ul li a:hover {
     position: fixed;
     top: 160px;
     left:0;
-    min-height: 120px;
-    
+    min-height: 120px;  
 }
 
 .contact:hover {
     cursor:pointer;
     background-color: white;
-    
 }
+
 main {
     margin-top: 150px;
     padding: 20px 90px 30px 90px;
     /*background-color: black;*/
-
 }
-
-
-
 
 main p {
     display: block;
@@ -155,15 +144,14 @@ main p {
     border-radius: 5px;
     text-align: center;
     color: white;
-    padding-top: 50px;
-    
+    padding-top: 50px;  
 }
 
 .profile {
-   height: 300px;
-   
+   height: 300px; 
    border-radius: 5px;
 }
+
 .grid {
     display: grid;
     gap: 20px;
@@ -178,7 +166,6 @@ main p {
 }
 
 .footer {
-    
     width: 100%;
     background-color: white;
     color: black;
@@ -189,11 +176,9 @@ main p {
     padding: 10px 10px 0px 10px;
     bottom: 0;        
     height: 40px;
-    
 }
 
 .form {
-    
         margin-left: 20px;
     	display: grid;
        text-align: center;
@@ -201,34 +186,26 @@ main p {
         max-width: 250px;
         font-family: 'Sora', sans-serif;
         background-color: white;
-
-        
     }
     
-
- 
  .container p {
- 
  	font-weight: 600;
     padding-top: 20px;
-    
  }
     
  
  .button {
-    
  	padding: 5px 26px;
     background-color: white;
     border: 3px solid black;
     font-weight: bold;
- 
  }
      
  .submit {
      padding-bottom: 20px;
      }
  
- input, textarea{
+ input, textarea {
  	  border-top-style: hidden;
   	  border-right-style: hidden;
  	  border-left-style: hidden;
@@ -236,27 +213,24 @@ main p {
       padding-bottom: 5px;
       font-size: 0.8rem;
       max-width: 250px;
-      
- 
  }
 
 
 /* The Modal (background) */
 .modal {
   display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100%; 
+  height: 100%; 
   overflow: auto; /* Enable scroll if needed */
-  
-  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  background-color: rgba(0,0,0,0.7); 
 }
 
-/* Modal Content (image) */
+/* Modal Content (form) */
 .modal-content {
   margin: auto;
   display: block;
@@ -267,7 +241,7 @@ main p {
 
 
 /* Add Animation */
-.modal-content{  
+.modal-content {  
   -webkit-animation-name: zoom;
   -webkit-animation-duration: 0.6s;
   animation-name: zoom;
@@ -309,13 +283,8 @@ main p {
   }
 }
     
- @media only screen and  (max-width: 1000px) {
-    
-   
+ @media only screen and (max-width: 1000px) {
      nav {
-     
-       /* padding-left: 100px;
-        margin-right: 0px; */
         text-align: center;
      }
      
@@ -323,60 +292,48 @@ main p {
      display: none;
      }
      
-  
-     
      .grid {
-        display: flex;
-         
+        display: flex;   
      }
 }
 
 @media only screen and  (max-width: 750px) {
-    
-    
-    
-    
     .one {
-        border-style: none;}
-    
-     header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    color: white;
-    transition: 1s;
+        border-style: none;
 }
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        transition: 1s;
+ }
 
     nav {
-    position: relative;
-    display: flex;
-    z-index: 1;
-    
+        position: relative;
+        display: flex;
+        z-index: 1;
 }
-    
-   
-
 
 nav ul {
-    position: relative;
-    display: flex;
-    transition: 0.25s;
-    margin-left: 120px;
-    opacity: 0;
-    
+      position: relative;
+      display: flex;
+      transition: 0.25s;
+      margin-left: 120px;
+      opacity: 0;
 }
     
-    
-    nav ul li {
-    list-style: none;
-    max-width: 90px;
+nav ul li {
+      list-style: none;
+      max-width: 90px;
 }
 
 nav ul li a {
@@ -389,14 +346,13 @@ nav ul li a {
     font-weight: 400;
 }
      
-     .grid {
-        display: block;
-         width: 95%;
-         margin: auto;   
-     }
+ .grid {
+     display: block;
+     width: 95%;
+     margin: auto;   
+ }
     
-    .profile {
-    
+.profile {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -404,20 +360,16 @@ nav ul li a {
     transform: translate(-50%, -50%);
 }
     
-    
-    
-    main p {
-        display: block;
-        padding-bottom: 70px;
-        min-width: 250px;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    
-    }
-    
+  main p {
+      display: block;
+      padding-bottom: 70px;
+      mn-width: 250px;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+ }
 }
 
 
