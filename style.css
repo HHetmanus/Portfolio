@@ -339,29 +339,14 @@ main p {
     
     }
     
-    nav {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        text-align: center;
-       
-        border: 1px solid white;
     
-    }
-    
-    nav ul {
-        display: flex;
-        gap: 10px;
-        justify-content: center;
-        text-align: center;
-    
-    }
     
     
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
-        border: 1px solid white;
+        text-align: center;
+       
        
         
     }
