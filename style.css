@@ -147,6 +147,11 @@ main p {
     padding-top: 50px;  
 }
 
+.child span {
+    color: #E9FFFF;
+
+}
+
 .profile {
    height: 300px; 
    border-radius: 5px;
