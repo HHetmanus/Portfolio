@@ -335,7 +335,29 @@ main p {
     
     
     .one {
-    border-style: none;
+        border-style: none;}
+    
+     header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+
+    nav {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    
+}
     
    
 
