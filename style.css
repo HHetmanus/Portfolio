@@ -366,7 +366,7 @@ nav ul {
     position: relative;
     display: flex;
     transition: 0.25s;
-    margin-left: 150px;
+    margin-left: 120px;
     opacity: 0;
     
 }
@@ -374,7 +374,7 @@ nav ul {
     
     nav ul li {
     list-style: none;
-    max-width: 100px;
+    max-width: 90px;
 }
 
 nav ul li a {
