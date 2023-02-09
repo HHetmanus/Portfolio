@@ -338,6 +338,10 @@ main p {
         font-weight: 400;
         padding: 0px 5px;
     }
+    
+    .contact {
+        display: none;
+    }
      
      .grid {
         display: block;
