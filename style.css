@@ -345,11 +345,11 @@ main p {
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
-        
+        padding-right: 10px;
     }
     
     nav ul li {
-        min-width: 60px;
+        min-width: 80px;
         text-align: center;
         
     }
