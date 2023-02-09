@@ -393,10 +393,25 @@ nav ul li a {
          margin: auto;   
      }
     
+    .profile {
+    
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
     
     
     main p {
-        min-width: 200px;
+        
+        min-width: 250px;
+        position: absolute;
+        top: 130%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
     
     }
     
