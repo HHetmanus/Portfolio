@@ -339,6 +339,10 @@ main p {
     
     }
     
+    header {
+    
+        display: grid;
+    }
     
     
     nav ul li a {
