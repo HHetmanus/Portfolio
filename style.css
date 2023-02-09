@@ -334,6 +334,7 @@ main p {
     nav ul li a {
         font-size: 0.8rem;
         font-weight: 400;
+        padding: 0px 10px;
     }
      
      .grid {
@@ -346,7 +347,7 @@ main p {
      }
     body {
     min-height: 700px;
-    min-width: 550px;    
+    min-width: 600px;    
     
     }
 }
