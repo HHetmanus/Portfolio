@@ -8,8 +8,8 @@
 
 body {
     height: 700px;
-    /*background-color: black;*/
-    background-color: white;
+    background-color: black;
+  /*  background-color: white;*/
 }
 
 header.sticky {
@@ -159,7 +159,7 @@ main p {
     font-family: 'Lato', sans-serif;
     border-radius: 5px;
     text-align: center;
-    color: black;
+    color: white;
     padding-top: 50px;
     
 }
@@ -185,8 +185,8 @@ main p {
 .footer {
     
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     font-style: italic;
     font-size: small;
     text-align: center;
