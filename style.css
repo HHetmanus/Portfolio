@@ -345,14 +345,14 @@ main p {
     
     nav ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         gap: 10px;
     
     }
     
     nav ul li {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         border: 1px solid white;
        
     
