@@ -326,7 +326,7 @@ main p {
     nav ul {
         display: flex;
         text-align: center;
-        padding-left: 50px;
+        padding-left: 80px;
     }
     nav ul li a {
         font-size: 0.9rem;
