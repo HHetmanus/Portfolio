@@ -313,6 +313,7 @@ main p {
      nav {
      
         padding-left: 100px;
+        padding-right: 0px;
      }
      
      header.sticky .logo {
