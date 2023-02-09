@@ -319,7 +319,10 @@ main p {
 }
 
 @media only screen and  (max-width: 730px) {
-     
+    .one {
+    border-style: none;
+    
+    }
     nav ul {
         display: flex;
         text-align: center;
@@ -344,8 +347,10 @@ main p {
          
      }
     
+    
+    
     main p {
-        min-width: 250px;
+        min-width: 200px;
     
     }
     body {
