@@ -310,7 +310,7 @@ main p {
  @media only screen and  (max-width: 1000px) {
     
    
-    nav  {
+    header  {
         
        display: flex;
        justify-content: center;
