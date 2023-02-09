@@ -343,6 +343,7 @@ main p {
     
     nav ul li {
         display: flex;
+        justify-content: space-around;
         border: 1px solid white;
     
     }
