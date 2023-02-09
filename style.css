@@ -310,28 +310,9 @@ main p {
  @media only screen and  (max-width: 1000px) {
     
    
-    header  {
-        
-       display: flex;
-       justify-content: space-around;
-        
-    }
-     
      nav {
-        margin:0;
-        padding:0;
-        text-align:center;
      
-     }
-     
-     
-     nav li {
-     
-        display:inline;
-     }
-     
-     nav a {
-        display:inline-block;
+        padding-left: 100px;
      }
      
      header.sticky .logo {
