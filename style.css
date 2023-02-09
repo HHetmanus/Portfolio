@@ -313,6 +313,13 @@ main p {
   .modal-content {
     width: 100%;
   }
+}
+    
+ media (max-width: 1000px) {
+     header .logo {
+     display: none;
+     }
+}
 
 
 
