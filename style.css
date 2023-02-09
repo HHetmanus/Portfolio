@@ -329,12 +329,13 @@ main p {
 @media only screen and  (max-width: 730px) {
      
     nav ul {
+        display: flex;
         text-align: center;
     }
     nav ul li a {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         font-weight: 400;
-        padding: 0px 10px;
+        padding: 0px 5px;
     }
      
      .grid {
