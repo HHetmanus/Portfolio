@@ -346,6 +346,9 @@ main p {
     nav ul {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-right: 0px;
+        margin-right: 0px;
         gap: 10px;
     
     }
