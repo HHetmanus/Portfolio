@@ -310,11 +310,11 @@ main p {
  @media only screen and  (max-width: 1000px) {
     
    
-    nav li {
-           float: left;
-        }
-    nav {
-       display: inline-block;
+    nav  {
+        
+       display: flex;
+       justify-content: center;
+        
     }
      
      header.sticky .logo {
@@ -334,12 +334,7 @@ main p {
     border-style: none;
     
     }
-    nav  {
-        
-       display: flex;
-       justify-content: center;
-        
-    }
+    
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
