@@ -147,7 +147,7 @@ main {
 
 
 main p {
-    display: grid;
+    display: block;
     align-items: center;
     padding: 15px;
     max-width: 500px;
