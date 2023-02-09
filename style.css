@@ -405,7 +405,7 @@ nav ul li a {
     
     
     main p {
-        
+        padding-bottom: 70px;
         min-width: 250px;
         position: absolute;
         top: 130%;
