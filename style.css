@@ -397,7 +397,7 @@ nav ul li a {
     
     margin: 0;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -408,7 +408,7 @@ nav ul li a {
         padding-bottom: 70px;
         min-width: 250px;
         position: absolute;
-        top: 130%;
+        top: 100%;
         left: 50%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
