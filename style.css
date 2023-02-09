@@ -319,6 +319,10 @@ main p {
      header .logo {
      display: none;
      }
+     
+     .grid {
+        display: flex;
+     }
 }
 
 
