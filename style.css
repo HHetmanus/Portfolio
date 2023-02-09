@@ -193,6 +193,8 @@ main p {
 }
 
 .form {
+    
+        margin-left: 20px;
     	display: grid;
        text-align: center;
         gap: 30px;
