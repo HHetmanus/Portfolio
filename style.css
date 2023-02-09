@@ -331,11 +331,7 @@ main p {
 
 @media only screen and  (max-width: 730px) {
     
-    header {
-     display: flex;
-     justify-content: space-evenly;
-        
-    }
+    
     
     
     .one {
@@ -353,7 +349,6 @@ main p {
     
     nav ul {
         display: flex;
-        justify-content: space-evenly;
         flex-wrap: wrap;
         padding-right: 0px;
         margin-right: 0px;
