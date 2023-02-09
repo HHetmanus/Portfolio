@@ -330,6 +330,14 @@ main p {
 }
 
 @media only screen and  (max-width: 730px) {
+    
+    header {
+     display: flex;
+     justify-content: space-evenly;
+        
+    }
+    
+    
     .one {
     border-style: none;
     
