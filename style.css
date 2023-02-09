@@ -340,7 +340,10 @@ main p {
     }
     
     nav {
-        
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        text-align: center;
        
         border: 1px solid white;
     
