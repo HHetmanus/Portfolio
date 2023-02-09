@@ -324,8 +324,10 @@ main p {
     
     }
     nav ul {
-        display: flex;
-        justify-content: space-around;
+        
+        display: inline-block;
+        /*display: flex;
+        justify-content: space-around;*/
         text-align: center;
         padding-left: 80px;
     }
