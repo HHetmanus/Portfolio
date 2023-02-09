@@ -342,6 +342,7 @@ main p {
     nav {
         margin-left: 50px !important;
         display: in-line;
+        text-align: center;
     }
     
     
@@ -349,12 +350,14 @@ main p {
         font-size: 0.9rem;
         font-weight: 400;
         text-align: center;
+        min-width: 50px;
         
     }
     
     nav ul li {
         
         text-align: center;
+        min-width: 50px;
         
     }
     
