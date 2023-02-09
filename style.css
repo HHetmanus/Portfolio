@@ -339,13 +339,8 @@ main p {
     
     }
     
-    header {
-        display: flex;
-        grid-template-columns: 60px 60px 60px 60px;
-        justify-content: center;
-         text-align: center;
-        
-    
+    nav {
+        margin-right: 50px !important;
     }
     
     
