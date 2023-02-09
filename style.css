@@ -345,9 +345,12 @@ main p {
     nav ul li a {
         font-size: 0.9rem;
         font-weight: 400;
+        
+    }
+    
+    nav ul li {
+        min-width: 40px;
         text-align: center;
-       
-       
         
     }
     
