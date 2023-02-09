@@ -364,8 +364,7 @@ nav ul {
     position: relative;
     display: flex;
     transition: 0.25s;
-    gap: 5px;
-    margin-left: 125px;
+    margin-left: 150px;
     opacity: 0;
     
 }
