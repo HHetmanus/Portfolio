@@ -324,7 +324,7 @@ main p {
     
     }
     nav ul {
-        display: flex;
+        display: grid;
         text-align: center;
         padding-left: 80px;
     }
@@ -353,13 +353,7 @@ main p {
         min-width: 200px;
     
     }
-    body {
     
-   /* max-width: 600px;*/
-        text-align: center;
-        
-    
-    }
 }
 
 
