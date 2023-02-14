@@ -381,7 +381,9 @@ nav ul li a {
 
 @media only screen and (max-width: 700px){
     header.sticky {
-    height: 250px;
-}
-
+        height: 250px;
+    }
+    nav ul {
+       
+        display: grid;
 }
