@@ -395,4 +395,10 @@ nav ul li a {
     nav ul li { 
         padding-bottom: 10px;
     }
+    .contact {
+         z-index: 1;
+    }
+    
+    
 }
+
