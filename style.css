@@ -393,7 +393,7 @@ nav ul li a {
 
 @media only screen and (max-width: 500px){
     header.sticky {
-        height: 250px;
+        height: 190px;
     }
     nav ul {
        
