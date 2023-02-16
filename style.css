@@ -317,6 +317,11 @@ main p {
     .one {
         border-style: none;
 }
+    a.one {
+    
+    display: inline-flex;
+    width: 150px;
+}
     
     header {
         position: fixed;
@@ -393,7 +398,7 @@ nav ul li a {
 
 @media only screen and (max-width: 500px){
     header.sticky {
-        height: 190px;
+        height: 200px;
     }
     nav ul {
        
