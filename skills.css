@@ -50,5 +50,12 @@ body {
     transform: translate(-50%, -50%);
     font-size: small;
 }
+
+@media only screen and (max-width: 500px) {
+    .grid {
+       display: block;
+        margin-left: -32%;
+    }
+}
     
     
