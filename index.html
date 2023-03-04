@@ -58,6 +58,8 @@
             
          </div>
         
+        <p id="message"><p>
+        
         
 
     </main>
@@ -139,6 +141,26 @@ window.onclick = function(event) {
     </footer>
      
     
+<script>
+
+const message = ["Medium blogs are awesome!"] 
+const speed = 300
+let textPosition = 0;
+
+function typewriter() {
+  document.querySelector("#message").innerHTML = message[0].substring(0, textPosition) + '<span>\u25AE</span>'
+ 
+}
+
+function typewriter() {
+  document.querySelector("#message").innerHTML = message[0].substring(0, textPosition) + '<span>\u25AE</span>'
+  if(textPosition++ != message[0].length)
+    setInterval(typewriter, speed)
+}
+
+window.addEventListener("scroll", typewriter)
+
+</script>
 
 
     <script src="scroll.js"></script>  
