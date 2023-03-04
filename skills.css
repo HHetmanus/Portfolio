@@ -41,5 +41,12 @@ body {
  
     .container {
     }
+
+footer .foot {
+    bottom: 0px;
+    position: fixed;
+    left: 50%;
+    font-size: small;
+}
     
     
