@@ -6,27 +6,20 @@ body {
 }
 
 .grid {
-		 width: 60%;
+        width: 60%;
         margin: auto;
         margin-top: 50px;
        	text-align: center;
         justify-items: center;
-        display: flex;
+        display: grid;
         grid-template-columns: 2fr 2fr 2fr;
         min-width: 300px;
         border-radius: 20px;
-        background-color: rgba(255, 255, 255, 0.45);
+        background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
         box-shadow:  5px 10px 10px white;
         backdrop-filter: blur(15px);
 }
 
-.grid {
-        padding:20px;
-        background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
-        border-radius: 20px;
-        display: grid;
-        grid-template-columns: 2fr 2fr 2fr;
-}
 
 
     .fa-brands {
