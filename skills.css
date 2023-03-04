@@ -43,8 +43,9 @@ body {
     }
 
 footer .foot {
-    bottom: 0px;
+    
     position: fixed;
+    bottom: 0px;
     left: 50%;
     font-size: small;
 }
