@@ -58,11 +58,15 @@
             
          </div>
         
-        <p id="message"><p>
+       
         
         
 
     </main>
+    
+     <footer class="footer">
+        <p><span>&copy;</span>Hubert Hetman 2023, UK</p>
+    </footer>
     
     <!-- Trigger/Open The Modal -->
 
@@ -136,31 +140,10 @@ window.onclick = function(event) {
 
 
     
-    <footer class="footer">
-        <p><span>&copy;</span>Hubert Hetman 2023, UK</p>
-    </footer>
+   
      
     
-<script>
 
-const message = ["Medium blogs are awesome!"] 
-const speed = 500
-let textPosition = 0;
-
-function typewriter() {
-  document.querySelector("#message").innerHTML = message[0].substring(0, textPosition) + '<span>\u25AE</span>'
- 
-}
-
-function typewriter() {
-  document.querySelector("#message").innerHTML = message[0].substring(0, textPosition) + '<span>\u25AE</span>'
-  if(textPosition++ != message[0].length)
-    setTimeout(typewriter, speed)
-}
-
-window.addEventListener("scroll", typewriter)
-
-</script>
 
 
     <script src="scroll.js"></script>  
