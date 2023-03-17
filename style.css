@@ -307,8 +307,9 @@ main p {
         text-align: center;
      }
      
-     header.sticky .logo {
+     header.sticky #logo {
      display: none;
+     transition: 0.6s ease;
      }
      
      .grid {
