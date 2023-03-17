@@ -24,6 +24,7 @@ body {
 
     .fa-brands {
     	border: 0.1px solid black;
+        box-shadow: 1px 2px black;
         width: 76px;
         text-align: center;
         font-size: 3rem;
