@@ -20,6 +20,7 @@ header.sticky #logo {
     font-size: 3rem;
     left: 100px;
     transform: translate(-10%, -50%);
+    text-shadow: 0px 2px black;
 }
 
 header.sticky .banner {
