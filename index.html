@@ -17,7 +17,11 @@
 <body>
     <header>
         <img src="images/banner.jpg" class="banner" alt="Porfolio Banner">
+        <!--
         <a href="#" class="logo"></a>
+        -->
+        
+        <div id="logo"></div>
         
         <script type="text/javascript">
             var i = 0, logo;
@@ -25,9 +29,9 @@
             
             function typing() {
                 if(i < logo.length){
-                document.getElementsByClassName("logo").innerHTML += logo.charAt(i);
+                document.getElementById("logo").innerHTML += logo.charAt(i);
                 i++;
-                setTimeout(typing, 100);
+                setTimeout(typing, 120);
                 }
             
             }
