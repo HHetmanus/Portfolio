@@ -38,7 +38,7 @@ body {
     	background-color: black;
         color: white;
         cursor: pointer;
-        transition: 1s left;
+        transition: 1s;
         
     }
  
