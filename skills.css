@@ -37,6 +37,7 @@ body {
     .fa-brands:hover {
     	background-color: aliceblue;
         cursor: pointer;
+        height: 120%;
     }
  
     .container {
