@@ -8,7 +8,7 @@ body {
 .skills {
     position: relative;
     animation-name: example;
-    animation-duration: 5s;
+    animation-duration: 3s;
     text-shadow: 4px 4px #36454F;
     font-weight: 500;
 }
