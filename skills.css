@@ -68,7 +68,7 @@ body {
 .foot {
     
     position: fixed;
-    bottom: 0px;
+    bottom: -25px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: small;
