@@ -71,7 +71,7 @@ header #logo {
     text-decoration: none;
     background: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
     -webkit-background-clip: text;
-    -webikt-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     font-size: 4rem;
     transform: translate(-50%, -50%);
     transition: 1s;
