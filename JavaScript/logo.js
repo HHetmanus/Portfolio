@@ -1,4 +1,4 @@
-<script type="text/javascript">
+
             var i = 0, logo;
             logo = "Portfolio."
             
@@ -13,4 +13,4 @@
             typing();
             
             
-        </script>
+       
