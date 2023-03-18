@@ -9,7 +9,7 @@ body {
     position: relative;
     animation-name: example;
     animation-duration: 5s;
-    text-shadow: 4px 4px black;
+    text-shadow: 4px 4px #36454F;
     font-weight: 500;
 }
 
