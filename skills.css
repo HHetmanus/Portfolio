@@ -9,6 +9,8 @@ body {
     position: relative;
     animation-name: example;
     animation-duration: 5s;
+    text-shadow: 4px 4px darkred;
+    font-weight: 500;
 }
 
 @keyframes example {
