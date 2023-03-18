@@ -10,7 +10,7 @@ body {
     animation-name: example;
     animation-duration: 3s;
     transition: ease;
-    text-shadow: 4px 4px #192841;
+    /*text-shadow: 4px 4px #192841;*/
     font-weight: 500;
 }
 
