@@ -13,8 +13,8 @@ body {
 
 @keyframes example {
   25%   { left:45%; top:45%;}
-  40%  {left:200px; top:0px;}
-  80%  { left:-200px; right:400px;}
+  40%  {left:70%; top:45%;}
+  80%  { left:30%; top:45%;}
   100% {left:45%; top:45%;}
 }
 
