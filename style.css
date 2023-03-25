@@ -391,7 +391,7 @@ nav ul li a {
     
     
     
-.profile {
+/*.profile {
     margin: 0;
     position: absolute;
     top: 50%;
@@ -402,6 +402,7 @@ nav ul li a {
     .profile:hover {
         transform: scale(1);
     }
+    */
     
   main p {
       display: block;
@@ -437,6 +438,7 @@ nav ul li a {
          z-index: 1;
     }
     
+    /*
     .profile {
         margin-top: 80px;
         
@@ -450,6 +452,7 @@ nav ul li a {
     transform: translate(-50%, -50%);
     transform: scale(1);
     }
+    */
     
     main p {
         top: 135%;
