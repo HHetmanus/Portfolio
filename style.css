@@ -439,6 +439,11 @@ nav ul li a {
          z-index: 1;
     }
     
+    .child {
+    margin-left: -20%;
+    }
+    
+    
     .grid {
         margin-top: 10%;
     }
