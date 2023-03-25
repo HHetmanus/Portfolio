@@ -395,10 +395,14 @@ nav ul li a {
     margin: 0;
     margin-top: 150px;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
+    
+    .profile:hover {
+        transform: scale(1);
+    }
     
   main p {
       display: block;
@@ -442,9 +446,10 @@ nav ul li a {
     
     .prolife:hover {
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    transform: scale(1);
     }
     
     main p {
