@@ -439,6 +439,11 @@ nav ul li a {
          z-index: 1;
     }
     
+    .contact p {
+        background-color: white;
+        color: black;
+    }
+    
     .child {
     margin-left: -20%;
     }
