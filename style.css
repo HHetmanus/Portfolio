@@ -410,7 +410,7 @@ nav ul li a {
       padding-bottom: 70px;
       min-width: 250px;
       position: absolute;
-      top: 100%;
+      top: 110%;
       left: 50%;
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
