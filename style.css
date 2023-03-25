@@ -439,6 +439,10 @@ nav ul li a {
     
     }
     
+    .prolife:hover {
+        position: inherit;
+    }
+    
     main p {
         top: 135%;
     }
